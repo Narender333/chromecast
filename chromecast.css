@@ -1,0 +1,20 @@
+.background {
+  background: center no-repeat url("https://www.gstatic.com/webp/gallery3/2_webp_ll.webp");
+}
+
+.logo {
+  background-image: url("https://www.gstatic.com/webp/gallery3/3_webp_ll.webp");
+}
+
+.progressBar {
+  background-color: rgb(238, 255, 65);
+}
+
+.splash {
+  background-image: url("https://www.gstatic.com/webp/gallery3/4_webp_ll.webp");
+}
+
+.watermark {
+  background-image: url("https://www.gstatic.com/webp/gallery3/5_webp_ll.webp");
+  background-size: 57px 57px;
+}
