@@ -14,10 +14,14 @@
       --theme-hue: 100;
       --progress-color: rgb(0, 255, 0);
       --splash-image: url('https://www.clipartmax.com/png/middle/147-1475576_splash-logo-splash-logo.png');
+      --splash-size: cover;
     }
   </style>
   <script>
     const context = cast.framework.CastReceiverContext.getInstance();
+    // Update style using javascript
+    let playerElement = document.getElementsByTagName("cast-media-player")[0];
+    playerElement.style.setProperty('--splash-image', 'url("https://www.clipartmax.com/png/middle/147-1475576_splash-logo-splash-logo.png")');
     context.start();
   </script>
 </body>
